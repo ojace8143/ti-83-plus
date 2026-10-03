@@ -6,7 +6,8 @@ takes pic1, and draws rays based on your specifications or just do a default cas
 
 Super inefficient, but gets the job done i guess. I will update this. i will have it track the distance of each ray until it hits a wall, then i will put that into a list then from there i'll make RAYCAST2 which will draw a 3d scene based on the data in the list.\
 
-Pictures of raycasts coming soon for RAYCAST1.
+![pics/image0.jpeg](pics/image0.jpeg)
+![pics/image1.jpeg](pics/image1.jpeg)
 
 ## PONG
 literally just pong. broken because of ti basic quirks
