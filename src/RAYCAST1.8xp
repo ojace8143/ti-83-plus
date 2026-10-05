@@ -79,7 +79,7 @@ Goto H
 Goto S
 
 Lbl H
-D->L_1(J)
+Dcos(B-A)->L_1(J)
 
 If J=N
 Goto D
@@ -109,7 +109,7 @@ K+1->K
 If K>=L_1(J)
 Goto N
 
-Pxl=On(int(S), int(R))
+Pxl-On(int(S), int(R))
 Goto T
 
 Lbl N
