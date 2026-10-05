@@ -20,7 +20,7 @@ Disp "<theta> STEP"
 Input Q
 
 Disp "BOUNCES"
-Input C
+Input M
 
 F/Q+1->N
 
@@ -68,7 +68,7 @@ Goto H
 If int(S)<0
 Goto H
 If int(S)>63
-Godo H
+Goto H
 
 int(R)->C
 int(S)->E
@@ -104,7 +104,7 @@ Y->S
 Lbl T
 R+V->R
 S+W->S
-K+1=K
+K+1->K
 
 If K>=L_1(J)
 Goto N
